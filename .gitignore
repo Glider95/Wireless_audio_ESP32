@@ -1,0 +1,6 @@
+# ESP-IDF build output
+build/
+sdkconfig.old
+
+# VSCode
+wireless_audio.code-workspace

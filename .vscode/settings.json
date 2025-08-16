@@ -1,0 +1,22 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "rm": false,
+        "rmdir": false,
+        "del": false,
+        "kill": false,
+        "curl": false,
+        "wget": false,
+        "eval": false,
+        "chmod": false,
+        "chown": false,
+        "/^Remove-Item\\b/i": false
+    },
+    "terminal.integrated.env.osx": {
+        "IDF_PATH": "/Users/gregorynicol/Developpement/esp/esp-idf",
+        "PATH": "/Users/gregorynicol/Developpement/esp/esp-idf/tools:$PATH"
+    },
+    "terminal.integrated.shellArgs.osx": [
+        "-c",
+        "source /Users/gregorynicol/Developpement/esp/esp-idf/export.sh; exec zsh"
+    ]
+}
